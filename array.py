@@ -28,3 +28,20 @@ print(my_array)
 #6. add items from list into array using fromlist() method. 
 my_array.fromlist(my_third_list)
 print(my_array)
+
+#7. remove any array elements using remove() method. 
+my_array.remove(13)
+print(my_array)
+
+#8. remove any array element using pop() method. 
+my_array.pop(2)  #it only takes index. 
+print(my_array)
+
+#9. fetch any element through its index using index() method. 
+index = my_array.index(10)
+print(index)
+
+#10. reverse a python array using reverse() method. 
+my_array.reverse()
+print(my_array)
+
