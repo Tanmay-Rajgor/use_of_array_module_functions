@@ -45,3 +45,12 @@ print(index)
 my_array.reverse()
 print(my_array)
 
+#11. get array buffer information through buffer_info() method. 
+print(my_array.buffer_info())
+
+#12. check for number of occurences of an element using count() method.
+my_array.reverse()
+my_array.append(7)
+print(my_array.count(7))
+print(my_array)
+
